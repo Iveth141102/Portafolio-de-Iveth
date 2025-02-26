@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link"></a>
+            <a class="header__menu__link"></a>
+        </nav>
+    </header>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">
+                IVETH GUTIERREZ- 
+                <strong class="titulo-destaque">Estudiante de Ingeniería Industrial</strong>
+            </h1>
+            <p class="presentacion__contenido__texto">
+                Estudiante destacada de la UPC (Top 5%), con experiencia en gestión de procesos, 
+                análisis de datos y optimización operativa en sectores público y privado. 
+                En SUNAT, optimicé la gestión no contenciosa mediante el rediseño de flujos de trabajo, 
+                mejorando la eficiencia en la resolución de casos. En el sector privado, impulsé la productividad 
+                y reduje costos con análisis estratégico. Domino Lean Six Sigma y herramientas avanzadas como SQL, 
+                Python, Power BI y Tableau. Me caracterizo por el pensamiento crítico, la proactividad y un enfoque 
+                en soluciones innovadoras para generar impacto mediante tecnología y optimización operativa.
+
+            </p>
+            <div class="presentacion__enlaces">
+                <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes</h2>
+                <a class="presentacion__enlaces__link" href="https://github.com/Iveth141102">
+                    <img src="./assets/github.png" alt="Github">
+                    Github
+                </a>
+                <a class="presentacion__enlaces__link" href="https://www.linkedin.com/in/iveth-gutierrez-chuquillanqui/">
+                    <img src="./assets/linkedin.png" alt="Linkedin">
+                    Linkedin
+                </a>
+                <a class="presentacion__enlaces__link" href="https://api.whatsapp.com/send/?phone=908762061&text&type=phone_number&app_absent=0">
+                    <img src="./assets/whatsapp.png" alt="Whatsapp">
+                    Twitch
+                </a>
+            </div>
+        </section>
+        <img src="./assets/iveth.png" alt="Foto de Iveth Gutierrez" class="presentacion__imagen">
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Iveth Gutierrez</p>
+    </footer>
+</body>
+</html>
